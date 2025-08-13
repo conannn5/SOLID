@@ -11,7 +11,7 @@ public class OrderProcessor {
             return;
         }
         System.out.println("Оформление заказа...");
-        System.out.println("Сумма к оплате: " + shoppingCart.calculateTotalCost());
+        System.out.println("Сумма к оплате: ₽" + shoppingCart.calculateTotalCost());
         shoppingCart.clear();
         System.out.println("Заказ оформлен успешно!");
     }
